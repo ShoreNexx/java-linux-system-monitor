@@ -6,6 +6,7 @@ public class Monitor {
 	public static void main(String[] args)  {
 		System.out.println("======== System Information ========");
 		System.out.println("HostName : "+HostName.status());
+		System.out.println("Kernel : "+ KernelInfo.kernalInfo());
 		System.out.println("Uptime : "+ Uptime.uptime());
 		
 		System.out.println();
